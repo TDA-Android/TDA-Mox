@@ -1,22 +1,114 @@
-# 🚀 TDA Mox (TDA Android Adam)
+# TDA Mox — Android System Shell Terminal
 
-> **[EN]** The world's first advanced no-root terminal with native Shizuku binding (Supporting Android 16).  
-> **[AR]** أول طرفية متقدمة في العالم بدون روت مع ربط Shizuku أصلي (يدعم Android 16).
+**TDA Mox** is an Android system-shell terminal application that uses
+**Shizuku as its required system execution interface**.
 
----
+TDA Mox is designed to provide users with a practical Android terminal
+for executing native Android system commands and Toybox utilities directly
+from the device.
 
-### 🔥 Key Features / الميزات الأساسية:
-- **[EN] No-Root Architecture:** Operates securely within Android's internal shell environment.  
-  **[AR] بدون صلاحيات الجذر:** يعمل بشكل آمن تماماً ضمن بيئة الـ shell الداخلية لنظام أندرويد.
-- **[EN] Android 16 Support:** Fully compatible with the latest system security and package management.  
-  **[AR] دعم مطلق لـ Android 16:** متوافق تماماً مع أحدث أنظمة التشغيل وحماية الحزم.
-- **[EN] Native Shizuku Binding:** Direct integration with system services for high-performance script execution.  
-  **[AR] ربط Shizuku أصلي:** تكامل مباشر مع خدمات النظام لتنفيذ المهام البرمجية والسكربتات بكفاءة عالية.
-- **[EN] Local Automation:** Seamlessly run and coordinate local scripts directly from your device.  
-  **[AR] أتمتة محلية متكاملة:** إمكانية دمج البرامج النصية وتنسيق المهام البرمجية بسلاسة من هاتفك مباشرة.
+> **Important:** Shizuku is required for TDA Mox to operate.
 
----
+## What is TDA Mox?
 
-### 📦 Installation / التثبيت:
-- **[EN]** Clone or inspect the repository to experience true terminal power without a PC!  
-- **[AR]** قم بسحب المستودع أو استعراض الشيفرات المصدرية لاختبار القوة الحقيقية من هاتفك!
+TDA Mox provides a terminal interface running in the Android system-shell
+environment.
+
+It works with Android's native command environment and Toybox utilities,
+including commands such as:
+
+- `ps`
+- `dumpsys`
+- `pm`
+- `am`
+- `cmd`
+- `getprop`
+- `log`
+- `top`
+- `mount`
+- `kill`
+- `readelf`
+- `find`
+- `grep`
+- `sed`
+- `tar`
+- and other available Android/Toybox commands.
+
+## Shizuku Integration
+
+**Shizuku is required for TDA Mox to operate.**
+
+TDA Mox requests authorization from Shizuku and uses the Shizuku
+execution interface for supported Android system operations.
+
+TDA Mox is **not an ADB client** and is **not an ADB shell emulator**.
+
+When Shizuku is started through ADB, ADB is only involved in starting
+the Shizuku service. TDA Mox communicates with Shizuku rather than
+acting as an ADB client itself.
+
+## Android System Operations
+
+TDA Mox is designed for users who need a terminal capable of working
+with Android's native system environment.
+
+Typical uses include:
+
+- Android system inspection
+- process inspection
+- package management
+- Activity and service interaction
+- system-property inspection
+- device diagnostics
+- filesystem inspection
+- Toybox command execution
+- local shell scripting
+- Android system automation
+
+Actual capabilities depend on the Android version, device,
+Shizuku configuration, and permissions available to the execution context.
+
+## Android Compatibility
+
+TDA Mox is designed for modern Android versions, including:
+
+- Android 14
+- Android 15
+- Android 16
+
+Command availability may vary between Android versions and device
+manufacturers.
+
+## APK Availability
+
+The **TDA Mox APK is provided for users to download and use**.
+
+TDA Mox being available as a downloadable APK does **not** mean that
+its source code is distributed as open-source software.
+
+The TDA Mox release is intended to make the application available
+for users under the terms described in `DISCLAIMER.md`.
+
+## Download
+
+Download the latest TDA Mox APK from GitHub Releases:
+
+https://github.com/TDA-Android/TDA-Mox/releases
+
+## Documentation
+
+- [Operation Manual](OPERATION_MANUAL.md)
+- [Disclaimer](DISCLAIMER.md)
+
+## Keywords
+
+TDA Mox, TDA-Mox, Android terminal, Android system shell,
+Android shell terminal, Shizuku terminal, Shizuku Android terminal,
+Toybox terminal, Android system commands, Android shell commands,
+Android 14 terminal, Android 15 terminal, Android 16 terminal,
+dumpsys terminal, pm command, am command, Android automation,
+Android system tools, Android system shell terminal.
+
+## Disclaimer
+
+See [DISCLAIMER.md](DISCLAIMER.md) before using TDA Mox.
